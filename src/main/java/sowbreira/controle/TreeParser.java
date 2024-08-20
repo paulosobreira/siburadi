@@ -49,6 +49,9 @@ public class TreeParser {
 
 	public void filtraJar(File aFile, DefaultMutableTreeNode node) {
 		File[] files = aFile.listFiles();
+		if(files==null){
+			return;
+		}
 		progress.setValue(cont++);
 		for (int i = 0; i < files.length; i++)
 			if (files[i].isFile()) {

@@ -1,3 +1,1 @@
-set CLASSPATH=""
-start javaw -Xms64M -Xmx64M sowbreira.MainFrame
-exit
+java -Xms64m -Xmx512m -jar target\siburadi-jar-with-dependencies.jar

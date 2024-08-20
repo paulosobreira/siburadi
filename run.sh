@@ -1,1 +1,2 @@
-java -Xms128M -Xmx128M sowbreira.MainFrame
+#!/bin/bash
+java -Xms64m -Xmx512m -jar target/siburadi-jar-with-dependencies.jar

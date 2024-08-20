@@ -37,5 +37,14 @@ Caso exitam mais ocorrencias estas são enfileiradas.
 
 Após qualquer alteração no grupo de catalagos, este deve ser salvo (F4 ou Menu->salvar) ou então salvar tudo com (F6).
 
-[Baixar o SIBURADI.](https://sowbreira-26fe1.firebaseapp.com/siburadi/siburadi.zip)
+## Requerimentos
+
+- Para executar o jogo é necessário Java 11
+- Para rodar uma instância do jogo no Windows execute run.bat
+- Para rodar uma instância do jogo no linux execute run.sh
+
+## Informação técnica
+
+- Construção Maven
+    - mvn clean package
 
